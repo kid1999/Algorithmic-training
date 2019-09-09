@@ -1,7 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbe0372c-aac5-416b-a225-72c5f8e2e551" name="Default Changelist" comment="" />
+    <list default="true" id="cbe0372c-aac5-416b-a225-72c5f8e2e551" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/index.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.0.20180606-2036.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1015.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1036.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1046.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1046.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1047.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1055.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1055.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1059.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1059.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1085.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1089.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1089.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1147.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1147.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1179.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1179.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1192.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1192.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1226.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1255.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1255.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1316.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1316.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1317.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1317.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1372.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1372.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1422.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1422.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1423.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1423.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1424.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1424.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1427.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1427.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1428.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1428.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1567.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1567.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1706.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1706.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1781.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1781.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1865.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1865.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1908.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1908.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1980.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P1996.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1996.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P2141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P2141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/P3383.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P3383.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/p1421.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/p1421.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april/p1909.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/p1909.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1000.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1008.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1015.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1036.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1046.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1047.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1055.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1059.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1085.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1089.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1138.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1147.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1179.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1192.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1226.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1255.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1308.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1316.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1317.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1372.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1422.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1423.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1424.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1427.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1428.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1567.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1706.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1781.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1865.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1908.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1980.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P1996.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P2141.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/P3383.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/baidu/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/baidu/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/baidu/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/baidu/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/ccps/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/ccps/Test1001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/ccps/Test1006.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/ccps/Test1007.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1012.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1048.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1060.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1062.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1064.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1094.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1115.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1161.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1164.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1181.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1223$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1223$1node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1223.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1319.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1320.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1403.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1420.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1443$1node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1443.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1449.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1469.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1553.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1590.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1598.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1601.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1614.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1634.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1652.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1664.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1720.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1739.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1803$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1803$1node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P1803.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P3834$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/P3834.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/leetcode/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/leetcode/P303$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/leetcode/P303$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/leetcode/P303.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/leetcode/P994$1node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/leetcode/P994.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/BuyAndSell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/may/test1/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/p1421.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/p1909.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/september/P1036.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/test/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/test/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/test/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/鏈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/鏉ㄨ緣涓夎.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccps/Test1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/Test1001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccps/Test1006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/Test1006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccps/Test1007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/Test1007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/july/LeetCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/july/LeetCode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/july/LeetCode/最大正方形221.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/最大正方形221.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/july/LeetCode/杨辉三角.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/杨辉三角.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1048.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1048.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1060.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1060.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1062.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1062.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1064.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1064.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1094.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1094.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1115.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1161.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1161.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1164.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1181.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1181.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1223.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1319.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1319.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1320.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1320.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1403.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1403.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1420.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1420.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1443.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1443.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1449.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1449.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1469.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1469.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1553.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1553.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1590.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1590.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1598.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1598.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1601.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1601.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1614.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1614.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1634.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1634.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1652.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1652.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1664.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1664.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1720.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1720.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1739.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1739.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P1803.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1803.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/P3834.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P3834.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/leetcode/P303.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/P303.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/leetcode/P994.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/P994.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/BuyAndSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/BuyAndSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/E.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may/test1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCPC/test1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/september/P1036.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1036.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Test2.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,17 +263,7 @@
     <option name="myElementSize" value="240" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,13 +272,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/april/P1059.java" />
-        <option value="$PROJECT_DIR$/src/april/P1255.java" />
-        <option value="$PROJECT_DIR$/src/april/P1015.java" />
-        <option value="$PROJECT_DIR$/src/april/P1226.java" />
         <option value="$PROJECT_DIR$/src/april/P1308.java" />
         <option value="$PROJECT_DIR$/src/april/P3383.java" />
         <option value="$PROJECT_DIR$/src/april/P1192.java" />
@@ -97,6 +325,10 @@
         <option value="$PROJECT_DIR$/src/may/P1094.java" />
         <option value="$PROJECT_DIR$/src/april/P1036.java" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Main.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P994.java" />
+        <option value="$PROJECT_DIR$/src/LuoGu/P1012.java" />
+        <option value="$PROJECT_DIR$/src/sort/Test2.java" />
       </list>
     </option>
   </component>
@@ -107,7 +339,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1025" />
+    <option name="x" value="1006" />
     <option name="y" value="162" />
     <option name="width" value="770" />
     <option name="height" value="765" />
@@ -121,19 +353,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="算法Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="算法Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="算法Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithmic-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithmic-training" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,9 +367,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559279376236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568005407626" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM/community" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -156,6 +377,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Algorithmic-training\src\LuoGu" />
+      <recent name="E:\Git\Algorithmic-training\src\LeetCode" />
+      <recent name="E:\Git\Algorithmic-training\src\sort" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -298,11 +526,12 @@
       <workItem from="1558180832154" duration="90000" />
       <workItem from="1559276618714" duration="1762000" />
       <workItem from="1559709814038" duration="90000" />
+      <workItem from="1568004982335" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207335000" />
+    <option name="totallyTimeSpent" value="207755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +545,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12466488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +553,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32658958" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5280665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49232915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -336,6 +565,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.23849373" />
+      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -355,7 +585,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/may/test1/test.java</url>
+          <url>file://$PROJECT_DIR$/src/CCPC/test1/test.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -364,241 +594,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/may/P1012.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1601.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1590.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1469.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1320.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1319.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1161.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1420.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1614.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1664.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1652.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1634.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1720.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1739.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk8/src.zip!/java/lang/AbstractStringBuilder.java" />
-    <entry file="jar://D:/jdk8/src.zip!/java/lang/StringBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1553.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1048.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1060.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/BuyAndSell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk8/src.zip!/java/math/BigInteger.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/leetcode/P303.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/leetcode/P994.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/test1/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/may/P1443.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P3834.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1598.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1403.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/may/P1062.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/may/P1164.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -689,6 +684,144 @@
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Test1001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Test1006.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Test1007.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/最大正方形221.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/杨辉三角.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P303.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P994.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1060.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P3834.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1720.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1652.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1601.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1739.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1319.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1443.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1012.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1553.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1036.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/鏈.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/鏉ㄨ緣涓夎.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Test2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1308.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1047.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1424.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1422.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P2141.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1147.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1255.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1059.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1085.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1138.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

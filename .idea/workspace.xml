@@ -130,9 +130,15 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.P1162">
     <configuration name="P1036" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="april.P1036" />
+=======
+  <component name="RunManager" selected="Application.P1014">
+    <configuration name="P1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1014" />
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
 =======
   <component name="RunManager" selected="Application.P1014">
     <configuration name="P1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -150,6 +156,7 @@
       </method>
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="P1162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuoGu.P1162" />
       <module name="算法Test" />
@@ -157,12 +164,17 @@
         <pattern>
           <option name="PATTERN" value="LuoGu.*" />
 =======
+=======
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
     <configuration name="P1036" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="april.P1036" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="april.*" />
+<<<<<<< HEAD
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
+=======
 >>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
           <option name="ENABLED" value="true" />
         </pattern>
@@ -173,8 +185,13 @@
       </method>
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="P1426" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuoGu.P1426" />
+=======
+    <configuration name="P1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1464" />
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
 =======
     <configuration name="P1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuoGu.P1464" />
@@ -221,6 +238,7 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.P1618" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <item itemvalue="Application.P1426" />
       <item itemvalue="Application.P1162" />
     </list>
@@ -228,6 +246,15 @@
       <list>
         <item itemvalue="Application.P1162" />
         <item itemvalue="Application.P1426" />
+=======
+      <item itemvalue="Application.P1464" />
+      <item itemvalue="Application.P1014" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P1014" />
+        <item itemvalue="Application.P1464" />
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
 =======
       <item itemvalue="Application.P1464" />
       <item itemvalue="Application.P1014" />
@@ -291,9 +318,13 @@
       <workItem from="1568004982335" duration="420000" />
       <workItem from="1568038228639" duration="2941000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1568091694864" duration="872000" />
       <workItem from="1568196962817" duration="1256000" />
       <workItem from="1568204640450" duration="4908000" />
+=======
+      <workItem from="1568113550217" duration="5475000" />
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
 =======
       <workItem from="1568113550217" duration="5475000" />
 >>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
@@ -357,6 +388,7 @@
           <value>
             <State>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -378,6 +410,10 @@
         <entry key="User">
           <value>
             <list />
+=======
+              <option name="COLUMN_ORDER" />
+            </State>
+>>>>>>> 959764858aa4ed1100a77113d940fd5dceaf56c8
 =======
               <option name="COLUMN_ORDER" />
             </State>

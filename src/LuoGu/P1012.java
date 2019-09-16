@@ -1,20 +1,39 @@
 package LuoGu;
 
-import java.util.Arrays;
+import java.math.BigInteger;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class P1012 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String[] nums = new String[n];
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.next();
-        }
-        Arrays.sort(nums);
-        for (int i = nums.length-1; i >= 0; i--) {
-            System.out.print(nums[i]);
-        }
-
+  static BigInteger res = BigInteger.ZERO;
+  static String[] nums;
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    nums = new String[n];
+    for (int i = 0; i < n; i++) {
+      nums[i] = sc.next();
     }
+
+    Set<Integer> used = new HashSet<>();
+    helper(used,"");
+    System.out.println(res);
+  }
+  public static void helper( Set<Integer> used,String num){
+    if (used.size() == nums.length){
+      BigInteger tmp = new BigInteger(num);
+      if(res.compareTo(tmp) == -1){
+        res = tmp;
+      }
+      return;
+    }
+    for (int i = 0; i < nums.length ; i++) {
+      if(!used.contains(i)){
+        Set<Integer> newused = new HashSet<>(used);
+        newused.add(i);
+        helper(newused,num + nums[i]);
+      }
+    }
+  }
 }

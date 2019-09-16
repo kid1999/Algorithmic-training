@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce05b937-2e4c-4018-a710-1a1ac827f994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1603.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1071.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/算法Test/LuoGu/P1012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/算法Test/LuoGu/P1012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LuoGu/P1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1012.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1Qv02NHQsrysmioMI9FPi3cIZhV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -41,13 +43,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1603">
-    <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.week154.One" />
+  <component name="RunManager" selected="Application.P1071">
+    <configuration name="P1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1012" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.week154.*" />
+          <option name="PATTERN" value="LuoGu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1056" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuoGu.P1056" />
+    <configuration name="P1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1071" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1071" />
+        <item itemvalue="Application.P1012" />
         <item itemvalue="Application.P1603" />
         <item itemvalue="Application.P1328" />
         <item itemvalue="Application.two" />
-        <item itemvalue="Application.One" />
-        <item itemvalue="Application.P1056" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568468881618</updated>
       <workItem from="1568468900528" duration="4417000" />
+      <workItem from="1568635572163" duration="4523000" />
     </task>
     <servers />
   </component>
@@ -186,5 +189,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="set" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

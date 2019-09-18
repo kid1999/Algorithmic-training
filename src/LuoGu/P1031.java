@@ -16,13 +16,7 @@ public class P1031 {
 		int count = 0,res = 0;
 		for (int i = 0; i < n ; i++) {
 			int tmp = count + dp[i] - sum;
-			if(count < 0){
-				if(tmp <= 0) res++;
-			}else if(count > 0){
-				if(tmp >= 0) res++;
-			}else if(count == 0){
-				if(tmp != 0) res++;
-			}
+			if(tmp != 0) res++;		// 只能往后移动如果不能直接把后一个数变成0 就需要继续移动
 			count = tmp;
 		}
 		System.out.println(res);

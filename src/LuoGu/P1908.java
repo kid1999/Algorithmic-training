@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class P1908 {
     static int res = 0;
+    static int[] tmp ;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] nums = new int[n];
+        tmp = new int[n+1];
         for (int i = 0; i <n ; i++) {
             nums[i] = sc.nextInt();
         }
@@ -31,18 +33,15 @@ public class P1908 {
     }
 
     public static void merge(int[] nums,int L,int M,int R){
-        int[] tmp = new int[R-L+1];
         int index = 0;
         int right = M+1;
         int left = L;
-//        System.out.println(L +" " + M + " " + R + " " + tmp.length);
         while(left<=M && right<=R){
             if(nums[left]<=nums[right]) tmp[index++] = nums[left++];
             else{
                 tmp[index++] = nums[right++];
                 res += M-left+1;            // 求逆序数
             }
-
         }
 
         while(left<=M){
@@ -53,8 +52,8 @@ public class P1908 {
         }
 
         // 还原数据到原数组中
-        for (int i = 0; i <tmp.length ; i++) {
-            nums[L +i] = tmp[i];
+        for (int i = 0; i <= R-L ; i++) {
+            nums[L+i] = tmp[i];
         }
     }
 

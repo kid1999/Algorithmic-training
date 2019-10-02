@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce05b937-2e4c-4018-a710-1a1ac827f994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CF/R589/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1010.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1498.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1029.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/算法Test/LuoGu/P1908.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/算法Test/LuoGu/P1908.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LuoGu/P1908.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1908.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LuoGu/P1029.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CCPC/Test1007.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CCPC/Test1006.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BBOJ/求最大公约数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,14 +78,15 @@
         <option value="$PROJECT_DIR$/src/LuoGu/P1010.java" />
         <option value="$PROJECT_DIR$/src/LuoGu/P1908.java" />
         <option value="$PROJECT_DIR$/src/LuoGu/P1498.java" />
+        <option value="$PROJECT_DIR$/src/LuoGu/P1029.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="60" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="-8" />
+    <option name="y" value="56" />
+    <option name="width" value="3033" />
+    <option name="height" value="1379" />
   </component>
   <component name="ProjectId" id="1Qv02NHQsrysmioMI9FPi3cIZhV" />
   <component name="ProjectLevelVcsManager">
@@ -80,7 +114,7 @@
               <item name="Algorithmic-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithmic-training" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LuoGu" type="462c0819:PsiDirectoryNode" />
+              <item name="BBOJ" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -92,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569859613422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570013604524" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -108,20 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1498">
-    <configuration name="查找整数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BBOJ.查找整数" />
-      <module name="算法Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BBOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P1029">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CF.R589.Main" />
       <module name="算法Test" />
@@ -137,6 +158,19 @@
     </configuration>
     <configuration name="P1010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuoGu.P1010" />
+      <module name="算法Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LuoGu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1029" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1029" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
@@ -225,19 +259,19 @@
     <list>
       <item itemvalue="Application.P1086" />
       <item itemvalue="Application.P1068" />
-      <item itemvalue="Application.查找整数" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.P1010" />
       <item itemvalue="Application.P1908" />
       <item itemvalue="Application.P1498" />
+      <item itemvalue="Application.P1029" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1029" />
         <item itemvalue="Application.P1498" />
         <item itemvalue="Application.P1908" />
         <item itemvalue="Application.P1010" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.查找整数" />
       </list>
     </recent_temporary>
   </component>
@@ -273,11 +307,13 @@
       <workItem from="1569757489229" duration="36000" />
       <workItem from="1569762224257" duration="3253000" />
       <workItem from="1569848929609" duration="8369000" />
+      <workItem from="1569982886413" duration="197000" />
+      <workItem from="1570010639570" duration="3525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40341000" />
+    <option name="totallyTimeSpent" value="44063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,9 +325,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1266756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121313676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -300,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28323698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2817919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1300578" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BBOJ/求最大公约数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="18" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LuoGu/P1010.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -547,6 +576,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Test1007.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Test1001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CCPC/Test1006.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1029.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BBOJ/求最大公约数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>

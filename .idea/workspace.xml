@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce05b937-2e4c-4018-a710-1a1ac827f994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/week10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/week157.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,31 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LuoGu/P1025.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/week10.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/week157.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#arraysIntersection#0;class#week10#0" />
-                <element signature="method#twoSumBSTs#0;class#week10#0" />
-                <element signature="method#dfs#0;class#week10#0" />
-                <element signature="method#dfs#1;class#week10#0" />
-                <element signature="method#countSteppingNumbers#0;class#week10#0" />
-                <element signature="method#func#0;class#week10#0" />
-                <element signature="e#1847#1848#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -58,8 +38,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/LeetCode/week10.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/week157.java" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1856" />
+    <option name="y" value="1" />
+    <option name="width" value="3035" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectId" id="1Qv02NHQsrysmioMI9FPi3cIZhV" />
   <component name="ProjectLevelVcsManager">
@@ -70,8 +57,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,12 +79,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570291282594" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570334397221" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -115,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.week10">
+  <component name="RunManager" selected="Application.week157">
     <configuration name="P1025" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuoGu.P1025" />
       <module name="算法Test" />
@@ -177,12 +164,12 @@
       </extension>
       <method v="2" />
     </configuration>
-    <configuration name="P1498" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuoGu.P1498" />
+    <configuration name="week10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.week10" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LuoGu.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.week10" />
+    <configuration name="week157" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.week157" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
@@ -206,19 +193,19 @@
     <list>
       <item itemvalue="Application.P1086" />
       <item itemvalue="Application.P1068" />
-      <item itemvalue="Application.P1498" />
       <item itemvalue="Application.P1029" />
       <item itemvalue="Application.P1025" />
       <item itemvalue="Application.P1057" />
       <item itemvalue="Application.week10" />
+      <item itemvalue="Application.week157" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week157" />
         <item itemvalue="Application.week10" />
         <item itemvalue="Application.P1057" />
         <item itemvalue="Application.P1025" />
         <item itemvalue="Application.P1029" />
-        <item itemvalue="Application.P1498" />
       </list>
     </recent_temporary>
   </component>
@@ -259,11 +246,12 @@
       <workItem from="1570153884840" duration="19000" />
       <workItem from="1570157082431" duration="4868000" />
       <workItem from="1570278190365" duration="2328000" />
+      <workItem from="1570328509602" duration="5888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5135000" />
+    <option name="totallyTimeSpent" value="11023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,7 +265,7 @@
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12533513" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1266756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -286,8 +274,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.06358381" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34537572" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25578034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37572256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32803467" />
@@ -408,6 +396,21 @@
     <SUITE FILE_PATH="coverage/Algorithmic_training$P1086__1_.ic" NAME="P1086 (1) Coverage Results" MODIFIED="1568810395033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/week10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#arraysIntersection#0;class#week10#0" />
+            <element signature="method#twoSumBSTs#0;class#week10#0" />
+            <element signature="method#dfs#0;class#week10#0" />
+            <element signature="method#countSteppingNumbers#0;class#week10#0" />
+            <element signature="method#func#0;class#week10#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LuoGu/P1025.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -415,21 +418,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/week10.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/week157.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#arraysIntersection#0;class#week10#0" />
-            <element signature="method#twoSumBSTs#0;class#week10#0" />
-            <element signature="method#dfs#0;class#week10#0" />
-            <element signature="method#dfs#1;class#week10#0" />
-            <element signature="method#countSteppingNumbers#0;class#week10#0" />
-            <element signature="method#func#0;class#week10#0" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>

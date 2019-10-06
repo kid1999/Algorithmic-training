@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce05b937-2e4c-4018-a710-1a1ac827f994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/week157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1126.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/算法Test/LeetCode/P1057.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/P1057.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuoGu/P1057.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/week157.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LuoGu/P1057.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LuoGu/P1126.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -39,14 +50,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/LeetCode/week10.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/week157.java" />
+        <option value="$PROJECT_DIR$/src/LuoGu/P1126.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1856" />
-    <option name="y" value="1" />
+    <option name="x" value="1855" />
     <option name="width" value="3035" />
-    <option name="height" value="1104" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectId" id="1Qv02NHQsrysmioMI9FPi3cIZhV" />
   <component name="ProjectLevelVcsManager">
@@ -57,6 +68,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,20 +86,18 @@
               <item name="Algorithmic-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithmic-training" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LuoGu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570334397221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570381803862" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -102,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.week157">
+  <component name="RunManager" selected="Application.P1126">
     <configuration name="P1025" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuoGu.P1025" />
       <module name="算法Test" />
@@ -116,25 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1029" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuoGu.P1029" />
+    <configuration name="P1057" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1057" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LuoGu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1057" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.P1057" />
-      <module name="算法Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +162,25 @@
       </extension>
       <method v="2" />
     </configuration>
+    <configuration name="P1126" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1126" />
+      <module name="算法Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LuoGu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="week10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.week10" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="LuoGu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,7 +193,7 @@
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="LuoGu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +204,19 @@
     <list>
       <item itemvalue="Application.P1086" />
       <item itemvalue="Application.P1068" />
-      <item itemvalue="Application.P1029" />
       <item itemvalue="Application.P1025" />
       <item itemvalue="Application.P1057" />
       <item itemvalue="Application.week10" />
       <item itemvalue="Application.week157" />
+      <item itemvalue="Application.P1126" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1126" />
         <item itemvalue="Application.week157" />
         <item itemvalue="Application.week10" />
         <item itemvalue="Application.P1057" />
         <item itemvalue="Application.P1025" />
-        <item itemvalue="Application.P1029" />
       </list>
     </recent_temporary>
   </component>
@@ -247,11 +258,12 @@
       <workItem from="1570157082431" duration="4868000" />
       <workItem from="1570278190365" duration="2328000" />
       <workItem from="1570328509602" duration="5888000" />
+      <workItem from="1570373407990" duration="8414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11023000" />
+    <option name="totallyTimeSpent" value="19437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,12 +286,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25578034" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37572256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0433526" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.57947975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32803467" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32803467" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32658958" />
@@ -420,8 +432,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/week157.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="460">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1057.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuoGu/P1126.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package LeetCode;
+package LuoGu;
 
 import java.util.Scanner;
 

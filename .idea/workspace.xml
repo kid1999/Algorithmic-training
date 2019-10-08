@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce05b937-2e4c-4018-a710-1a1ac827f994" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1030.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1087.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1305.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LuoGu/P1020.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570422307471" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -45,9 +47,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1305">
-    <configuration name="P1030" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuoGu.P1030" />
+  <component name="RunManager" selected="Application.P1020">
+    <configuration name="P1020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1020" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuoGu.P1049" />
+    <configuration name="P1030" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuoGu.P1030" />
       <module name="算法Test" />
       <extension name="coverage">
         <pattern>
@@ -136,19 +138,19 @@
     <list>
       <item itemvalue="Application.P1086" />
       <item itemvalue="Application.P1068" />
-      <item itemvalue="Application.P1049" />
       <item itemvalue="Application.P1616" />
       <item itemvalue="Application.P1087" />
       <item itemvalue="Application.P1030" />
       <item itemvalue="Application.P1305" />
+      <item itemvalue="Application.P1020" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1020" />
         <item itemvalue="Application.P1305" />
         <item itemvalue="Application.P1030" />
         <item itemvalue="Application.P1087" />
         <item itemvalue="Application.P1616" />
-        <item itemvalue="Application.P1049" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +196,9 @@
       <workItem from="1570414823647" duration="25000" />
       <workItem from="1570416185644" duration="5442000" />
       <workItem from="1570434799925" duration="7455000" />
+      <workItem from="1570493273303" duration="5786000" />
+      <workItem from="1570500661023" duration="137000" />
+      <workItem from="1570500824917" duration="4341000" />
     </task>
     <servers />
   </component>

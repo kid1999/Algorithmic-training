@@ -1,9 +1,11 @@
 package LuoGu;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+
+/*   暴搜
 public class P1020 {
   static int max = 0;
   static int res = 0;
@@ -49,5 +51,34 @@ public class P1020 {
       }
     }
     dfs(index+1,sum,last,new ArrayList<>(tmp));     // 不选
+  }
+
+}
+  */
+
+// 参考 https://blog.csdn.net/belous_zxy/article/details/80517745
+// n*2的朴素线性dp
+public class P1020{
+  public static void main(String[] args) throws FileNotFoundException {
+//    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(new FileInputStream("data/in"));
+    int[] nums = new int[100001];
+    int[] dp = new int[100001];
+    int[] dst = new int[100001];
+    int count = 0;
+    while (sc.hasNextInt()){
+      nums[count++] = sc.nextInt();
+    }
+    int res1 = 0,res2 = 0;
+    for (int i = 1; i <count ; i++) {
+      for (int j = 0; j <i ; j++) {
+        if(nums[j] >= nums[i]) dp[i] = Math.max(dp[i],dp[j]+1);
+        else dst[i] = Math.max(dst[i],dst[j]+1);
+      }
+      res1 = Math.max(res1,dp[i]);
+      res2 = Math.max(res2,dst[i]);
+    }
+    System.out.println(res1+1);
+    System.out.println(res2+1);
   }
 }

@@ -19,13 +19,13 @@ public class P105 {
     return dfs(preorder, inorder, tree, 0, preorder.length, 0,inorder.length);
   }
   public TreeNode dfs(int[] preorder, int[] inorder,TreeNode root,int l1,int r1,int l2,int r2){
-     if(l2>r2) return null;
+     if(l2>r2 || l1>=inorder.length) return null;
      root = new TreeNode(preorder[l1]);
      int cur = l2;
      while (preorder[l1] != inorder[cur]) cur++;
      int count = cur - l2;
-     dfs(preorder, inorder, root.left, l1, r1, l2, r2+count-1);
-     dfs(preorder, inorder, root.left, l1, r1, l2, r2+count-1);
+     root.left = dfs(preorder, inorder, root.left, l1+1, l1+count, l2, cur-1);
+     root.right = dfs(preorder, inorder, root.right, l1+count+1, r1, cur+1,r2);
      return root;
   }
 }

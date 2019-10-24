@@ -27,17 +27,24 @@ public class G {
       }
     });
 
-    Set<Integer> set = new HashSet<>();
+    boolean[] flag = new boolean[n+1];
     for(Pair<Integer,Integer> pair:pairs){
       int ts = pair.getKey();
       int id = pair.getValue();
       dp[id][1] -= (ts-dp[id][0] == 0 ? 0 : ts-dp[id][0]-1);
       if(dp[id][1]<=0) dp[id][1] = 0;
       dp[id][1] += 2;
-      if(dp[id][1] > 5 && !set.contains(id)) set.add(id);
-      else if(dp[id][1] <= 3 && set.contains(id)) set.remove(id);
+      if(dp[id][1] > 5) flag[id] = true;
+      if(dp[id][1] <= 3) flag[id] = false;
       dp[id][0] = ts;
     }
-    System.out.println(set.size());
+    // 清算
+    int res = 0;
+    for(int id=1;id<=n;id++){
+      dp[id][1] -= t-dp[id][0];
+      if(dp[id][1] <= 3) flag[id] = false;
+      if(flag[id]) res++;
+    }
+    System.out.println(res);
   }
 }

@@ -1,35 +1,28 @@
-package luogu;
-
+package LuoGu;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class P1217 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		boolean[] check = new boolean[b+1];//ÓÃÀ´±ê¼ÇÊÇ·ñÒÑ¾­·ÃÎÊ¹ıÁË£¬Èç¹û·ÃÎÊ¹ıÁË¾Í´ò1£¬Ã»·ÃÎÊ¹ı´ò0
-	    List<Integer> primeList = new ArrayList<>();
+		boolean[] check = new boolean[b+1]; //     æ£€æŸ¥æ•°ç»„
+		List<Integer> list = new ArrayList<>();
+		int sqrt = (int) Math.sqrt(b);
+		for(int i = 2;i<=sqrt;i++) {
+			if(!check[i]) {
+				for (int j = i*i; j <=b ; j+=i) {
+					check[j] = true;
+				}
+			}
+		}
 
-	    // Å·Ê½É¸ ³¬¿Õ¼ä
-	    for(int i = 2;i<=b;i++) {
-	        if(!check[i]) {    //´òÁË1µÄ¾Í²»»áÔÙ¿´ÁË£¬ÖØ¸´¸³ÖµÀË·ÑÊ±¼ä
-	            primeList.add(i); //count±äÁ¿¼ÇÂ¼ËØÊı¸öÊı£¬Êı×é¼ÇÂ¼ÒÑÖªµÄËØÊıµÄÖµ
-	        }
-
-	        for(int j=0;j<primeList.size()&&i*primeList.get(j)<b;j++) {
-	            check[i*primeList.get(j)] = true; //±ê¼Ç x=i*primeList[j],xÎ»ÖÃÊÇÎÒ·ÃÎÊ¹ıµÄÎ»ÖÃ£¬´ò1
-	            if(i%primeList.get(j)==0) {   //ÕâÒ»²¿·Ö²»ºÃÀí½â£¬±È·½Ëµ6£¬Ö®Ç°·ÃÎÊ¹ı£¨2,3£©£¬ÄÇÃ´6%2==0,²»ÓÃÔÙ¼ì²é6%3ÁË£¬ÕæÕı¸ºÔğ¼ÇÂ¼Êı¾İµÄÊÇcount±äÁ¿
-	                break;
-	            }           
-	        }          
-	    }  
-		for(int i=0;i<primeList.size();i++) {
-			if(isHui(primeList.get(i)) && primeList.get(i) >= a) {
-				System.out.println(primeList.get(i));
+		for(int i=a;i<=b;i++) {
+			if(!check[i] && isHui(i)) {
+				System.out.println(i);
 			}
 		}
 	}
@@ -43,5 +36,4 @@ public class P1217 {
 		}
 		return true;
 	}
-	
 }

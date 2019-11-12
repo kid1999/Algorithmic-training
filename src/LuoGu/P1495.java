@@ -9,54 +9,52 @@ import java.util.Scanner;
  */
 
 public class P1495 {
-	static boolean flag;
-	static long d, x, y;
-	static long result;
 
 	public static void main(String[] args) {
+		// 输入数据
 		Scanner sc = new Scanner(System.in);
-		long a1, m1, m2, a2, k;
-		k = sc.nextLong();
-		for (int i = 0; i <k ; i++) {
-			m1 = sc.nextLong();
-			a1 = sc.nextLong();
-			k -= 1;
-			flag = false;
-			result = 0;
-			x = y = 0;
-			d = 0;
-			for (int i = 0; i < k; i++) {
-				m2 = sc.nextLong();
-				a2 = sc.nextLong();
-				long b = a2 - a1;
-				d = extend_GCD(m1, m2);
-				if (b % d != 0)
-					flag = true;// 不存在整数解
-				result = (x * (b / d) % m2 + m2) % m2;
-				a1 = a1 + m1 * result; // 对于求多个方程
-				m1 = (m1 * m2) / d; // lcm(m1,m2)最小公倍数；d是m1 和 m2 的最大公约数
-				a1 = (a1 % m1 + m1) % m1;
+		int n = sc.nextInt();
+		long nums[] = new long[n+1];
+		long mod[] = new long[n+1];
+		for (int i = 0; i <n ; i++) {
+			nums[i] = sc.nextInt();
+			mod[i] = sc.nextInt();
+		}
+		// 用 同余的 加法 性质 统计出 sum(ai)
+		// 其中 ai = 除i以外的num相加 得lcm_num 再用lcm_num*n mod num[i] == mod[i]
+		long res = 0;
+		for (int i = 0; i <n ; i++) {
+			long lcm_num = 1;
+			for (int j = 0; j <n ; j++) {
+				if(j == i) continue;
+				lcm_num = lcm(lcm_num,nums[j]);
 			}
-			if (flag)
-				System.out.println(-1);
-			else
-				System.out.println(a1);
+			int k = 1;
+			while (true){
+				if(lcm_num*k % nums[i] == mod[i]){
+					res += lcm_num*k;
+					break;
+				}
+				k++;
+			}
 		}
-
+		// 计算出 最小公倍数
+		long stander = 1;
+		for (int i = 0; i <n ; i++) {
+			stander = lcm(stander,nums[i]);
+		}
+		// 逼近最小的 结果
+		while (res - stander >= 0){
+			res -= stander;
+		}
+		System.out.println(res);
+	}
+	public static long gcd(long a,long b){
+		return a == 0 ? b : gcd(b%a, a);
+	}
+	public static long lcm(long a,long b){
+		return (a*b)/gcd(a,b);
 	}
 
-	// 扩展的欧几里德
-	private static long extend_GCD(long a, long b) {
-		long ret, t;
-		if (b == 0) {
-			x = 1;
-			y = 0;
-			return a;
-		}
-		ret = extend_GCD(b, a % b);
-		t = x;
-		x = y;
-		y = t - (a / b) * y;
-		return ret;
-	}
+
 }

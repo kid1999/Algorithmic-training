@@ -38,6 +38,8 @@ public class P1495 {
 				k++;
 			}
 		}
+
+
 		// 计算出 最小公倍数
 		long stander = 1;
 		for (int i = 0; i <n ; i++) {

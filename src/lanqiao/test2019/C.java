@@ -1,4 +1,4 @@
-package lanqiao;
+package lanqiao.test2019;
 
 public class C {
 

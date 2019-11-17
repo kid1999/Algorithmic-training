@@ -1,4 +1,4 @@
-package lanqiao;
+package lanqiao.test2019;
 
 import java.util.Scanner;
 

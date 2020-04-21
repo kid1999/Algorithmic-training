@@ -10,7 +10,7 @@ import java.util.*;
 public class P621 {
     public static void main(String[] args) {
         char[] chars = {'A','A','A','B','B','B'};
-        System.out.println(leastInterval(chars,2));
+//        System.out.println(leastInterval(chars,2));
     }
 
     // 基于排序的模拟算法

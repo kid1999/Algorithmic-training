@@ -53,7 +53,7 @@ public class P887 {
 //    }
 
     // 再次压缩：
-    public int superEggDrop(int K, int N) {
+    public static int superEggDrop(int K, int N) {
         int[] dp = new int[K + 1];
         int ans = 0;
         while (dp[K] < N){

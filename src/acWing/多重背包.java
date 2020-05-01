@@ -1,7 +1,5 @@
 package acWing;
 
-import javafx.util.Pair;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -37,26 +35,34 @@ public class 多重背包 {
 //    }
 
     // 优化版
+    private static class Good{
+        int weight;
+        int value;
+        Good(int w,int v){
+           weight = w;
+           value = v;
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int w = sc.nextInt();
-        List<Pair<Integer,Integer>> goods = new ArrayList<>();
+        List<Good> goods = new ArrayList<>();
         for (int i = 0; i <n ; i++) {
             int weight = sc.nextInt();
             int value = sc.nextInt();
             int count = sc.nextInt();
             for (int j = 1; j <=count ; j*=2) {
                 count -= j;
-                goods.add(new Pair<>(weight*j,value*j));
+                goods.add(new Good(weight*j,value*j));
             }
-            if(count > 0) goods.add(new Pair<>(count*weight,count*value));
+            if(count > 0) goods.add(new Good(weight*count,value*count));
         }
 
         int[] dp = new int[w+1];
-        for (Pair<Integer,Integer> good:goods) {
-            for (int j = w; j >=good.getKey() ; j--) {
-                dp[j] = Math.max(dp[j],dp[j-good.getKey()]+good.getValue());
+        for (Good good:goods) {
+            for (int j = w; j >=good.weight ; j--) {
+                dp[j] = Math.max(dp[j],dp[j-good.weight]+good.value);
             }
         }
         System.out.println(dp[w]);

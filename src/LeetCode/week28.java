@@ -1,6 +1,8 @@
 package LeetCode;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * @desc:
@@ -9,8 +11,8 @@ import java.util.HashMap;
  **/
 public class week28 {
     public static void main(String[] args) {
-        int[] arr = new int[]{3,1,1,1,5,1,2,1};
-        System.out.println(minSumOfLengths(arr,3));
+        int[] arr = new int[]{1,6,1};
+        System.out.println(minSumOfLengths(arr,7));
     }
 
     // 1
@@ -30,25 +32,30 @@ public class week28 {
 
     // 2
 
-    // 3  [3,2,2,4,3]
+    // 3  [1 6 1]
     public static int minSumOfLengths(int[] arr, int target) {
-        int l = 0;
+        int l=0,r=0;
         int sum = 0;
-        int len1=Integer.MAX_VALUE,len2 = Integer.MAX_VALUE;
-        for (int r = 0; r <arr.length ; r++) {
+        List<int[]> list = new ArrayList<>();
+        while (r<arr.length){
             sum += arr[r];
-            while (target < sum && l<=r){
+            while (l<=r &&sum >= target){
+                if(sum == target) list.add(new int[]{l,r,r-l});
                 sum -= arr[l++];
             }
-            if (sum == target){
-                if(len1>=len2) len1 = Math.min(len1,r-l+1);
-                else len2 = Math.min(len2,r-l+1);
-                sum = 0;
-                l = r+1;
+            r++;
+        }
+        if(list.size()<2) return -1;
+        list.sort((o1,o2)->{
+            return o1[2] - o2[2];
+        });
+        for (int[] a:list) {
+            for (int[] b:list) {
+                if(a[1] < b[0] ||b[1] < a[0])
+                    return a[1]-a[0] + b[1]-b[0] + 2;
             }
         }
-        if(len1==Integer.MAX_VALUE || len2==Integer.MAX_VALUE) return -1;
-        else return len1+len2;
+        return -1;
     }
     // 4
 //    public int minDistance(int[] houses, int k) {

@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class P1300 {
     public static void main(String[] args) {
         int[] arr = {15,1,1,1,1,1,1,1,1,1,1,1};
-        System.out.println(findBestValue(arr,50));
+//        System.out.println(findBestValue(arr,50));
     }
 
 //    public int findBestValue(int[] arr, int target) {

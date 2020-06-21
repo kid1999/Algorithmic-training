@@ -8,34 +8,25 @@ import java.util.Scanner;
  * @date: 2020/3/23 9:56
  **/
 public class T397 {
+
+    final static long mod = 987654321;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = 987654321;
-        long sum = 0;
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int a = 1,b = 1;
-        for (int i = n; i >n-m ; i--) { // 第一项
-            a = a * i % num;
+        long sum = 0;
+        long pre = Combination(n,m);
+        for (int i = 1; i <=n ; i++) {
+            sum += pre * Combination(n,i) * Math.pow(i,3) % mod;
         }
-        for (int i = m; i >0 ; i--) { // 第一项
-            b = b * i % num;
-        }
-        for (int k = 0; k <=n ; k++) {
-            long res = a/b;
-            if(k != 0 && k != n){
-                for (int i = n; i >n-k ; i--) {
-                    res = res * i % num;
-                }
-                for (int i = k; i >0 ; i--) {
-                    res /= i;
-                }
-            }
-            res = res * k % num;
-            res = res * k % num;
-            res = res * k % num;
-            sum = (sum + res) % num;
-        }
-        System.out.println(sum);
+        System.out.println(sum % mod);
     }
+
+
+    private static long Combination(int n, int m) {
+        if(m>n) return 0;
+        else if(m==0||m==n) return 1;
+        else return Combination(n-1, m)+Combination(n-1, m-1) % mod;
+    }
+
 }

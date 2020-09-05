@@ -16,31 +16,32 @@ public class P239 {
         System.out.println(maxSlidingWindow(arr,1));
     }
 
-    // 大顶堆 + 双端队列 超时 n*logk
+    // 大顶堆  n*logk
 //    public int[] maxSlidingWindow(int[] nums, int k) {
-//        Deque<Integer> deque = new LinkedList<>();
-//        int[] res = new int[nums.length-k+1];
+//        int len = nums.length;
+//        if(len < 2) return nums;
+//        int[] res = new int[len-k+1];
 //        PriorityQueue<Integer> q = new PriorityQueue<>(k, new Comparator<Integer>() {
 //            @Override
 //            public int compare(Integer o1, Integer o2) {
 //                return o2-o1;
 //            }
 //        });
-//        if(nums.length < 2) return nums;
 //        for (int i = 0; i <k ; i++) {
-//            deque.addLast(nums[i]);
 //            q.add(nums[i]);
 //        }
-//        res[0] = q.peek();
-//        for (int i = k; i <nums.length ; i++) {
-//            deque.addLast(nums[i]);
-//            q.remove(deque.pollFirst());
-//            q.add(nums[i]);
-//            res[i-k+1] = q.peek();
+//        int l = 0, r = k;
+//        while (r < len){
+//            res[l] = q.peek();
+//            q.add(nums[r++]);
+//            q.remove(nums[l++]);
 //        }
+//        res[l] = q.peek();
 //        return res;
 //    }
 
+
+    // 双端队列 + max删除时重找max O(N) - O(NK)
 public static int[] maxSlidingWindow(int[] nums, int k) {
     Deque<Integer> deque = new LinkedList<>();
     int[] res = new int[nums.length-k+1];
@@ -65,4 +66,12 @@ public static int[] maxSlidingWindow(int[] nums, int k) {
     }
     return res;
 }
+
+
+
+
+
+
+
+
 }

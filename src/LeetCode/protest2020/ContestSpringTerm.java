@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.protest2020;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @auther: kid1999
  * @date: 2020/4/25 15:00
  **/
-public class Contest2020Term {
+public class ContestSpringTerm {
 
 
 //    public int expectNumber(int[] scores) {

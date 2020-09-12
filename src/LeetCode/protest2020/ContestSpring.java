@@ -1,11 +1,11 @@
-package LeetCode;
+package LeetCode.protest2020;
 
 /**
  * @desc:
  * @auther: kid1999
  * @date: 2020/4/18 14:56
  **/
-public class Contest2020 {
+public class ContestSpring {
 
     // 1
 

@@ -1,7 +1,8 @@
 package LeetCode;
 
-import javax.sound.midi.MidiSystem;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author kid1999
@@ -10,18 +11,7 @@ import java.util.*;
  **/
 public class week206 {
     public static void main(String[] args) {
-//        {2,1,3},{0,3,2},{1,0,3},{2,0,1}
-//        {1,2,3},{3,2,0},{3,1,0},{1,2,0}
-//        int[][] arr = {
-//                {1, 3, 2}, {2, 3, 0}, {1, 3, 0}, {0, 2, 1}
-//        };
-//        int[][] arr2 = {{1,3},{2,0}};
-//        System.out.println(unhappyFriends(4,arr,arr2));
 
-                int[][] arr = {
-                        {2,-3},{-17,-8},{13,8},{-17,-15}
-        };
-        System.out.println(minCostConnectPoints(arr));
     }
 
     // 1
@@ -90,72 +80,67 @@ public class week206 {
     }
 
     // 3
-    static class  Node {
-        int x;
-        int y;
-        int distence;
-        public Node(int x, int y, int distence) {
-            this.x = x;
-            this.y = y;
-            this.distence = distence;
-        }
-    }
-    // kruskal
-//    public static int minCostConnectPoints(int[][] ps) {
-//        int len = ps.length;
-//        int res = 0;
-//        List<Node> list = new ArrayList<>();
-//        for (int i = 0; i <len ; i++) {
-//            for (int j = i+1; j <len ; j++) {
-//                list.add(new Node(i,j,compute(ps[i][0],ps[i][1],ps[j][0],ps[j][1])));
-//            }
-//        }
-//        Set<Integer> set = new HashSet<>();
-//        list.sort((Node o1, Node o2)-> {
-//                return o1.distence - o2.distence;
-//            });
-//        for (Node node:list) {
-//            if(set.contains(node.x) && set.contains(node.y)) continue;
-//            else {
-//                set.add(node.x);
-//                set.add(node.y);
-//                res += node.distence;
-//            }
-//        }
-//        return res;
-//    }
-
-    // Prim  runtime error
-    public static int minCostConnectPoints(int[][] ps) {
+    public int minCostConnectPoints(int[][] ps) {
         int len = ps.length;
         int res = 0;
         boolean[] vis = new boolean[len];
-        List<Integer> queue = new ArrayList<>();
-        queue.add(0);
-        vis[0] = true;
-        while (queue.size() < len){
-            int size = queue.size();
-            int min = Integer.MAX_VALUE;
-            int node = 0;
-            for (int l = 0;l<size;l++) {
-                int i = queue.get(l);
-                for (int j = 0; j <len ; j++) {
-                    int dis = compute(ps[i][0],ps[i][1],ps[j][0],ps[j][1]);
-                    if(!vis[j] && dis < min){
-                        min = dis;
-                        node = j;
-                    }
+        int[] min_dist = new int[len];
+        Arrays.fill(min_dist,Integer.MAX_VALUE);
+        min_dist[0] = 0;
+        for (int i = 0; i <len ; i++) {         // 每次选取最小距离的点访问
+            int u = -1;
+            int gmin = Integer.MAX_VALUE;
+            for (int j = 0; j <len ; j++) {
+                if(!vis[j] && min_dist[j] < gmin){
+                    gmin = min_dist[j];
+                    u  = j;
                 }
             }
-            if(min != Integer.MAX_VALUE){
-                System.out.println(node + " " + min);
-                vis[node] = true;
-                res += min;
-                queue.add(node);
+            res += gmin;
+            vis[u] = true;
+            for (int j = 0; j <len ; j++) {     // 更新当前加入点 与 其他没加入点的最小距离
+                if(!vis[j]){
+                    int new_dist = Math.abs(ps[j][0] - ps[u][0]) + Math.abs(ps[j][1] - ps[u][1]);
+                    min_dist[j] = Math.min(min_dist[j],new_dist);
+                }
             }
         }
         return res;
     }
+
+
+
+//    // Prim  runtime error  没有保存最小距离 导致每次都计算 超时
+//    public static int minCostConnectPoints(int[][] ps) {
+//        int len = ps.length;
+//        int res = 0;
+//        boolean[] vis = new boolean[len];
+//        List<Integer> queue = new ArrayList<>();
+//        queue.add(0);
+//        vis[0] = true;
+//        while (queue.size() < len){
+//            int size = queue.size();
+//            int min = Integer.MAX_VALUE;
+//            int node = 0;
+//            for (int l = 0;l<size;l++) {
+//                int i = queue.get(l);
+//                for (int j = 0; j <len ; j++) {
+//                    int dis = compute(ps[i][0],ps[i][1],ps[j][0],ps[j][1]);
+//                    if(!vis[j] && dis < min){
+//                        min = dis;
+//                        node = j;
+//                    }
+//                }
+//            }
+//            if(min != Integer.MAX_VALUE){
+//                System.out.println(node + " " + min);
+//                vis[node] = true;
+//                res += min;
+//                queue.add(node);
+//            }
+//        }
+//        return res;
+//    }
     public static int compute(int x1,int y1,int x2,int y2){
         return Math.abs(x1-x2) + Math.abs(y1-y2);
     }

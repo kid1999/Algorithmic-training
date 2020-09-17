@@ -1,9 +1,9 @@
 package base;
 
 /**
- * @desc:
- * @auther: kid1999
- * @date: 2020/6/19 10:55
+ * @desc 组合数
+ * @author kid1999
+ * @date 2020/6/19 10:55
  **/
 public class Combination {
     public static void main(String[] args) {

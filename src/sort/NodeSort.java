@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+
+/**
+ * @author kid1999
+ * @date 2020/9/17 22:48
+ * @title Java结构体排序
+ */
+
 // 对结构体排序
 class Node implements Comparable<Node>{
 

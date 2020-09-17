@@ -1,5 +1,14 @@
 package sort;
 
+import java.util.Arrays;
+
+/**
+ * @author kid1999
+ * @date 2020/9/17 22:48
+ * @title 快速排序
+ */
+
+
 public class QuickSort {
     public static void main(String[] args) {
         int[] nums = {5,9,3,7,6,4,2,1,8};
@@ -9,9 +18,7 @@ public class QuickSort {
         System.out.println();
         sort(nums,0,nums.length-1);
 
-        for (int n:nums) {
-            System.out.print(n + " ");
-        }
+        System.out.println(Arrays.toString(nums));
 
     }
 

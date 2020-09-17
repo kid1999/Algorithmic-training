@@ -1,9 +1,9 @@
 package base;
 
 /**
- * @desc:
- * @auther: kid1999
- * @date: 2020/6/19 11:07
+ * @desc 排列数
+ * @author r kid1999
+ * @date 2020/6/19 11:07
  **/
 public class Arragement {
     public static void main(String[] args) {

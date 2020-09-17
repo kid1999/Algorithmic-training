@@ -3,6 +3,13 @@ package sort;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+
+/**
+ * @author kid1999
+ * @date 2020/9/17 22:48
+ * @title 堆排序
+ */
+
 public class heapSort {
   public static void main(String[] args) {
     int[] arr = {1,5,3,2,7,6,4,9,8};

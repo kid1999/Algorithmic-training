@@ -1,12 +1,19 @@
 package sort;
 
+
+import java.util.Arrays;
+
+/**
+ * @author kid1999
+ * @date 2020/9/17 22:48
+ * @title 计数排序
+ */
+
 public class CountingSort {
   public static void main(String[] args) {
     int[] arr = {1,3,5,4,7,8,6,9,2,2,3,1};
     CountSort(arr,1,10);
-    for (int i = 0; i <arr.length ; i++) {
-      System.out.print(arr[i] + " ");
-    }
+    System.out.println(Arrays.toString(arr));
   }
 
   // 针对某个范围数据的排序 如：（1-10）

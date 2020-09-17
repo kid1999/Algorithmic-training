@@ -3,6 +3,13 @@ package sort;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * @author kid1999
+ * @date 2020/9/17 22:48
+ * @title 归并排序
+ */
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] nums = {5,9,3,7,6,4,2,1,8};

@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/language-java-orange.svg)
 
 ## 初衷
-希望可以用这个代码仓库记录我的算法竞赛的的进阶之旅，一步一个脚印。回首往昔，说不定还会别有一番风味呢。
+希望可以用这个代码仓库记录我的算法竞赛的的进阶之路。
 
 ## 环境要求
 * macOS or Linux or Windows
@@ -17,6 +17,9 @@
 * 蓝桥杯
 * GXCPC
 * CCPC
+* LeetCode
+* LuoGu
+* 面试题
 
 ## 题型 （一边做题一边总结）
 ### 基本数据结构

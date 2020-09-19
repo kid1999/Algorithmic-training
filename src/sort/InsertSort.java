@@ -6,6 +6,8 @@ import java.util.Arrays;
  * @author kid1999
  * @date 2020/9/17 22:48
  * @title  插入排序
+ *  插入排序是稳定的，基于插入排序的排序算法。
+ *  每次排序，将该元素加入有序子序列
  */
 
 public class InsertSort {

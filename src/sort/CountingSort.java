@@ -7,6 +7,8 @@ import java.util.Arrays;
  * @author kid1999
  * @date 2020/9/17 22:48
  * @title 计数排序
+ * 适用于数据范围不大，密集的情况
+ * 将数据映射到一个数据范围的数组中
  */
 
 public class CountingSort {

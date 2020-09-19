@@ -7,7 +7,7 @@ package base;
  **/
 public class Combination {
     public static void main(String[] args) {
-        System.out.println(Combination(5,2));
+        System.out.println(Combination(6,0));
     }
 
 

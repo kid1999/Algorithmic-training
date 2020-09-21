@@ -1,13 +1,12 @@
 
-//»úÆ÷ÈËÅĞ·ÖÏµÍ³ÒªÇó±ØĞëÈçÏÂ¹æÔò£º
-// 1£º ²»ÄÜÓĞpackage¹Ø¼ü×Ö
-// 2£º ±ØĞëÀàÃû±ØĞëÊÇMain
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ·ï¿½ÏµÍ³Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½
+// 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½packageï¿½Ø¼ï¿½ï¿½ï¿½
+// 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Main
 
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Scanner;
-import java.util.HashMap;
 public class Main {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);

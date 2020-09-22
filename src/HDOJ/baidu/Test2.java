@@ -1,7 +1,6 @@
-package baidu;
+package HDOJ.baidu;
 
 import javafx.util.Pair;
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.*;
 

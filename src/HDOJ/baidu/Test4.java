@@ -1,4 +1,4 @@
-package baidu;
+package HDOJ.baidu;
 
 import java.util.Scanner;
 
